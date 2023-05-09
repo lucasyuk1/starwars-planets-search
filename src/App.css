@@ -29,6 +29,149 @@
   color: #61dafb;
 }
 
+body {
+  background-color: black;
+}
+
+tr {
+  color: #ffe919;
+}
+
+td {
+  border: #ffe919 1px solid;
+  color: #ffe919;
+  margin: 0 auto;
+  padding: 7px;
+  text-align: center;
+}
+
+.logo-starwars {
+  text-align: center;
+  width: 100%;
+}
+
+/* Filters */
+.filters-container {
+  align-items: center;
+  display: flex;
+  height: auto;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+.filter {
+  border: #ffe919 1px solid;
+  border-radius: 10px;
+  color: #ffe919;
+  font-weight: 700;
+  height: 30px;
+  justify-content: center;
+  margin: 15px;
+  padding: 15px;
+  width: 50%;
+}
+
+.buttons-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+.button-filter {
+  background-color: blue;
+  border-radius: 10px;
+  color: #ffe919;
+  font-weight: 700;
+  justify-content: center;
+  margin: 15px;
+  padding: 15px;
+}
+
+.button-remove-filters {
+  background-color: red;
+  border-radius: 10px;
+  color: #ffe919;
+  font-weight: 700;
+  justify-content: center;
+  margin: 15px;
+  padding: 15px;
+}
+
+.filters-applied-container {
+  align-items: center;
+  border-radius: 10px;
+  color: #ffe919;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 15px auto;
+  padding: 8px;
+  text-align: center;
+  width: 25%;
+}
+
+.filter-applied {
+  background-color: blue;
+  border-radius: 10px;
+  color: #ffe919;
+  display: flex;
+  font-weight: 700;
+  justify-content: space-between;
+  margin: 5px;
+  padding: 5px 25px;
+  width: 100%;
+}
+
+.remove-filter-button {
+  background-color: red;
+  border-radius: 10px;
+  color: #ffe919;
+  font-weight: 700;
+  justify-content: flex-end;
+}
+
+.sort-container {
+  align-items: center;
+  color: #ffe919;
+  display: flex;
+  justify-content: center;
+  margin: 10px auto;
+  text-align: center;
+  width: 100%;
+}
+
+.sorter-select {
+  color: black;
+}
+
+.sorter {
+  color: #ffe919;
+}
+
+.sorter, .sorter-select {
+  border: #ffe919 1px solid;
+  border-radius: 10px;
+  font-weight: 700;
+  justify-content: center;
+  margin: 15px;
+  padding: 15px;
+}
+
+.sorter-btn {
+  background-color: blue;
+  border-radius: 10px;
+  color: #ffe919;
+  font-weight: 700;
+  justify-content: center;
+  margin: 15px;
+  padding: 15px;
+}
+
 @keyframes App-logo-spin {
 
   from {
